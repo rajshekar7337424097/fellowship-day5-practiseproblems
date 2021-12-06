@@ -34,7 +34,7 @@ public class Quadratic {
 			double root1 = (-b + Math.sqrt(delta)) / 2 * a;
 			double root2 = (-b - Math.sqrt(delta)) / 2 * a;
 			System.out.println(root1+"\t"+root2+"\t roots are real and distinct");
-			
+
 		}else if(delta < 0) {
 			double root1 = (-b + Math.sqrt(delta)) / 2 * a;
 			double root2 = (-b - Math.sqrt(delta)) / 2 * a;
